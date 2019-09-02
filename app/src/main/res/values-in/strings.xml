@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">Aplikasi Film</string>
+    <string name="release">Rilis</string>
+    <string name="director">Sutradara</string>
+    <string name="genre">Genre</string>
+    <string name="synopsis">Ringkasan</string>
+    <string name="rate">Rate</string>
+    <string name="movie">Film</string>
+    <string name="tv_series">Serial TV</string>
+    <string name="content_tvshow_backdrop">Latar belakang Foto SerialTv</string>
+    <string name="creator">Pembuat</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="movie_banner">Latar Belakang Foto Film</string>
+
+    <!-- Movies Data -->
+    <string-array name="data_name_movie">
+        <item>Lahirnya Seorang Bintang(2018)</item>
+        <item>Alita:Pertarungan Malaikat(2019)</item>
+        <item>Aquaman(2018)</item>
+        <item>Avengers:Perang Tanpa Akhir(2018)</item>
+        <item>Creed II(2018)</item>
+        <item>Hewan Fantastis:Kejahatan GrinderWald(2018)</item>
+        <item>Kaca(2019)</item>
+        <item>Mesin Fana(2018)</item>
+        <item>Robin Hood(2018)</item>
+        <item>Ketenangan(2018)</item>
+        <item>Spider-Man: Lintas Dunia(2018)</item>
+    </string-array>
+
+    <string-array name="data_genre_movie">
+        <item>Drama,Romantis, Musik</item>
+        <item>Aksi,Fiksi Ilmiah,\nThriller, Petualangan</item>
+        <item>Aksi,Petualangan,Fantasi</item>
+        <item>Aksi,Petualangan,\nFiksi Ilmiah</item>
+        <item>Drama</item>
+        <item>Petualangan,Fantasi,Keluarga</item>
+        <item>Thriller,Drama,\nFiksi Ilmiah</item>
+        <item>Petualangan, Fantasi</item>
+        <item>Petualangan, Aksi, Thriller</item>
+        <item>Thriller, Misteri</item>
+        <item>Aksi, Petualangan,\nAnimasi, Fiksi Ilmiah,\nKomedi</item>
+    </string-array>
+
+    <array name="data_image_movie">
+        <item>@drawable/poster_a_start_is_born</item>
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_infinity_war</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_crimes</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_mortal_engines</item>
+        <item>@drawable/poster_robin_hood</item>
+        <item>@drawable/poster_serenity</item>
+        <item>@drawable/poster_spiderman</item>
+    </array>
+
+    <array name="data_img_movie_banner">
+        <item>@drawable/banner_movie_astarisborn</item>
+        <item>@drawable/banner_movie_alita</item>
+        <item>@drawable/banner_movie_aquaman</item>
+        <item>@drawable/banner_movie_avengers</item>
+        <item>@drawable/banner_movie_creed</item>
+        <item>@drawable/banner_movie_fantasticbeast</item>
+        <item>@drawable/banner_movie_glass</item>
+        <item>@drawable/banner_movies_mortal_engines</item>
+        <item>@drawable/banner_movie_robin_hood</item>
+        <item>@drawable/banner_movie_serenity</item>
+        <item>@drawable/banner_movie_spiderman_intoverse</item>
+    </array>
+
+    <string-array name="data_movie_release">
+        <item>5 Oktober 2018</item>
+        <item>31 Januari 2019</item>
+        <item>7 Desember 2018</item>
+        <item>23 April 2018</item>
+        <item>14 November 2018</item>
+        <item>16th November2018</item>
+        <item>16 Januari 2019</item>
+        <item>14 Desember 2018</item>
+        <item>21 November 2018</item>
+        <item>25 Januari 2019</item>
+        <item>1 Desember 2019</item>
+    </string-array>
+
+    <string-array name="data_director_movie">
+        <item>Bradley Cooper</item>
+        <item>Robert Rodriguez</item>
+        <item>James Wan</item>
+        <item>Antonie Russo &amp; \n Joe Russo</item>
+        <item>Steven Caple Jr.</item>
+        <item>David Yates</item>
+        <item>M. Night Shyamalan</item>
+        <item>Christian Rivers</item>
+        <item>Otto Bathrust</item>
+        <item>Steven Knight</item>
+        <item>Rodney Rothman</item>
+    </string-array>
+
+    <string-array name="data_duration_time">
+        <item>2j 15m</item>
+        <item>2j 2m</item>
+        <item>2j 24m</item>
+        <item>2j 29m</item>
+        <item>2j 10m</item>
+        <item>2j 14m</item>
+        <item>2j 9m</item>
+        <item>2j 9m</item>
+        <item>1j 56m</item>
+        <item>1j 46m</item>
+        <item>1j 57m</item>
+    </string-array>
+    <string-array name="data_synopsis_movies">
+        <item>Musisi kawakan Jackson Maine menemukan dan jatuh cinta pada artis yang sedang berjuang, Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karir Ally lepas landas, sisi pribadi dari hubungan mereka hancur, seperti Jack berjuang pertempuran yang sedang berlangsung dengan setan internalnya sendiri.</item>
+        <item>Ketika Alita terbangun tanpa ingatan tentang siapa dirinya di dunia masa depan yang tidak dia kenal, dia ditangkap oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat dalam cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan luar biasa di masa lalu.</item>
+        <item>Dahulu ada sebuah rumah yang merupakan peradaban paling maju di Bumi, Atlantis yang sekarang merupakan kerajaan bawah laut yang dipimpin oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian menguasai dunia permukaan. Yang menghalangi rencannya adalah Arthur Curry, saudaranya yang setengah manusia dan setengah Atlantis yang merupakan pewaris takhta yang sah.</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayangan kosmik: Thanos. Seorang raja sadis antar galaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang berhubungan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya.</item>
+        <item>Gellert Grindelwald telah lolos dari penjara dan mulai mengumpulkan pengikut untuk tujuan-nya - meninggikan penyihir di atas semua makhluk non-magis. Satu-satunya yang mampu menghentikannya adalah penyihir yang pernah ia sebut teman terdekatnya, Albus Dumbledore. Namun, Dumbledore perlu mencari bantuan dari penyihir yang pernah menggagalkan Grindelwald sebelumnya, mantan muridnya Newt Scamander, yang setuju untuk membantu, tidak menyadari bahaya yang ada di depan. Garis digambar saat cinta dan kesetiaan diuji, bahkan di antara teman dan keluarga yang paling sejati, di dunia sihir yang semakin terpecah.</item>
+        <item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.</item>
+        <item>Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+        <item>Seorang pejuang perang yang keras dan komandan Moornya melakukan pemberontakan yang berani melawan Raja Inggris yang korup.</item>
+        <item>Baker Dill adalah kapten kapal nelayan yang memimpin tur di daerah tropis yang tenang yang disebut Pulau Plymouth. Namun, kehidupannya yang tenang hancur, ketika mantan istrinya, Karen, melacaknya dengan permohonan bantuan yang putus asa.</item>
+        <item>Miles Morales sedang mengubah hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, mengankut Spider lain dari lintas dunia Spider diangkut ke dimensi ini.</item>
+    </string-array>
+
+
+    <!--TV Series Data -->
+    <string-array name="data_name_tv_shows">
+        <item>Panah(2012)</item>
+        <item>Doom Patrol(2019)</item>
+        <item>Permainan Kekuasaan(2011)</item>
+        <item>Gotham(2014)</item>
+        <item>Marvel Iron Fist(2017)</item>
+        <item>NCIS(2003)</item>
+        <item>Riverdale(2017)</item>
+        <item>Perempuan Super</item>
+        <item>Si Kilat(2014)</item>
+        <item>Akademi Umbrella(2019)</item>
+        <item>Jasad Berjalan(2010)</item>
+    </string-array>
+
+    <string-array name="data_genre_tv_shows">
+        <item>Kejahatan, Drama, Misteri, \nAksi&amp;Petualangan</item>
+        <item>FiksiIlmiah&amp;Fantasi,\nAksi&amp;Petualangan</item>
+        <item>FiksiIlmiah&amp;Fantasi, Drama,\nAksi&amp;Petualangan</item>
+        <item>Drama, Kejahatan, Fantasi</item>
+        <item>Aksi&amp;Petualangan,Drama,\nKejahatan,Fiksi-Ilmiah&amp;Fantasi</item>
+        <item>Aksi&amp;Petualangan,Drama,Kejahatan</item>
+        <item>Drama, Misteri</item>
+        <item>Aksi, Petualangan, Drama,\nFiksi Ilmiah</item>
+        <item>Drama, Fiksi Ilmiah&amp;Fantasi</item>
+        <item>Aksi&amp;Petualangan,Drama,\nFiksi-ilmiah&amp;Fantasi</item>
+        <item>Aksi&amp;Petualangan,Drama,\nFiksi-ilmiah&amp;Fantasi</item>
+    </string-array>
+
+    <array name="data_image_tv_shows">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_the_umbrella</item>
+        <item>@drawable/poster_the_walking_dead</item>
+    </array>
+
+    <array name="data_img_tv_shows_banner">
+        <item>@drawable/banner_tv_shows_arrow</item>
+        <item>@drawable/banner_tv_shows_doom_patrol</item>
+        <item>@drawable/banner_tv_shows_got</item>
+        <item>@drawable/banner_tv_shows_gotham</item>
+        <item>@drawable/banner_tv_shows_iron_fist</item>
+        <item>@drawable/banner_tv_shows_ncis</item>
+        <item>@drawable/banner_tv_shows_riverdale</item>
+        <item>@drawable/banner_tv_shows_supergirl</item>
+        <item>@drawable/banner_tv_shows_the_flash</item>
+        <item>@drawable/banner_tv_shows_umbrella</item>
+        <item>@drawable/banner_tv_shows_walking_dead</item>
+    </array>
+
+    <string-array name="data_creator_tv_shows">
+        <item>Greg Berlanti, \nMarch Guggenheim, \nAndrew Kreisberg</item>
+        <item>Jeremy Craver</item>
+        <item>David Benioff &amp;\n D.B.Weiss</item>
+        <item>Bruno Heller.</item>
+        <item>ScottBuck</item>
+        <item>Don McGill,\nDonald P.Bellisario</item>
+        <item>Roberto Aguirre-Sacasa</item>
+        <item>Greg Berlanti, \nAndrew Kreisberg, \nAli Adler</item>
+        <item>Greg Berlanti, \nAndrew Kreisberg, \nGeoff Johns</item>
+        <item>Steve Blackman</item>
+        <item>Frank Darabont</item>
+    </string-array>
+
+    <string-array name="data_duration_tv_shows_episode">
+        <item>42m</item>
+        <item>60m</item>
+        <item>60m</item>
+        <item>43m,60m</item>
+        <item>55m</item>
+        <item>45m</item>
+        <item>45m</item>
+        <item>42m</item>
+        <item>44m</item>
+        <item>60m</item>
+        <item>42m,60m,45m</item>
+    </string-array>
+    <string-array name="data_synopsis_tv_shows">
+        <item>Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian menjadi seorang pria yang berubah, bertekad untuk membersihkan kota sebagai seorang pahlawan berkerudung yang suka main hakim sendiri dan bersenjatakan busur.</item>
+        <item>Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super - tetapi juga membuat mereka terluka dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena aneh yang ada - dan untuk melindungi Bumi dari apa yang mereka temukan.</item>
+        <item>Tujuh Keluarga Bangsawan berjuang untuk menguasai tanah mitos, Westeros. Perselisihan kerajaan membawa perang skala penuh. Sementara itu, Penjahat yang sangat tua bangkit di Utara terjauh. Di tengah-tengah perang, perintah militer diabaikan, Night Watch, adalah pemicu semua berdiri di anatar ranah manusia dan kengerian es di luar</item>
+        <item>Semua orang tahu nama Komisaris Gordon. Dia adalah salah satu musuh terbesar dunia kejahatan, seorang pria yang reputasinya identik dengan hukum dan ketertiban. Tapi apa yang diketahui dari kisah Gordon dan kebangkitannya dari detektif pemula menjadi Komisaris Polisi? Apa yang diperlukan untuk menavigasi berbagai lapisan korupsi yang diam-diam memerintah Kota Gotham, tempat bertelurnya penjahat paling ikonik di dunia? Dan keadaan apa yang menciptakan mereka - persona yang lebih besar dari kehidupan yang akan menjadi Catwoman, The Penguin, The Riddler, Two-Face dan The Joker?</item>
+        <item>Danny Rand muncul kembali 15 tahun setelah dianggap mati. Sekarang, dengan kekuatan Iron Fist, ia berusaha untuk merebut kembali masa lalunya dan memenuhi takdirnya</item>
+        <item>Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit bukti yang terhubung dengan personel Korps Angkatan Laut, terlepas dari pangkat atau jabatannya</item>
+        <item>Berada di masa kini, seri ini menawarkan pandangan yang berani dan subversif pada Archie, Betty, Veronica dan teman-teman mereka, menjelajahi surreality kehidupan kota kecil, kegelapan dan keanehan yang meluap-luap di bawah fasad Riverdale yang sehat.</item>
+        <item>Kara Zor-El, 24 tahun, yang ditangkap oleh keluarga Danvers ketika dia berusia 13 tahun setelah diusir dari Krypton, harus belajar merangkul kekuatannya setelah sebelumnya menyembunyikannya. Danvers mengajarinya untuk berhati-hati dengan kekuatannya, sampai dia harus mengungkapkannya selama bencana yang tak terduga, menempatkannya dalam perjalanan kepahlawanannya.</item>
+        <item>Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya "manusia meta" yang diciptakan setelah ledakan akselerator - dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat, tetapi tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen … The Flash.</item>
+        <item>Sebuah keluarga pahlawan super yang disfungsional berkumpul untuk memecahkan misteri kematian ayah mereka, ancaman kiamat dan masih banyak lagi.</item>
+        <item>Wakil Sheriff Rick Grimes terbangun dari koma untuk menemukan dunia pasca-apokaliptik yang didominasi oleh zombie pemakan daging. Dia berangkat untuk menemukan keluarganya dan bertemu banyak penyintas lainnya di sepanjang jalan.</item>
+    </string-array>
+</resources>

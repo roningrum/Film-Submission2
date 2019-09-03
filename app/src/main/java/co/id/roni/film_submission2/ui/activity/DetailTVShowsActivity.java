@@ -1,18 +1,15 @@
 package co.id.roni.film_submission2.ui.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.bumptech.glide.Glide;
+
 import co.id.roni.film_submission2.R;
 import co.id.roni.film_submission2.model.TvShow;
-import co.id.roni.film_submission2.ui.fragment.MovieFragment;
-import co.id.roni.film_submission2.ui.fragment.TVShowsFragment;
 
 public class DetailTVShowsActivity extends AppCompatActivity {
     public static final String EXTRA_TVSHOWS = "extra_mtvshows";
@@ -52,6 +49,10 @@ public class DetailTVShowsActivity extends AppCompatActivity {
 
             imgPosterTVShowsDetail.setImageResource(tvShow.getPosterTvShow());
             imgBannerTvShowsDetail.setImageResource(tvShow.getPhotoTvShowBanner());
+
+            Glide.with(this).load(tvShow.getPosterTvShow()).into(imgPosterTVShowsDetail);
+            Glide.with(this).load(tvShow.getPhotoTvShowBanner()).into(imgBannerTvShowsDetail);
+
         }
     }
 }

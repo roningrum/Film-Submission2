@@ -1,17 +1,15 @@
 package co.id.roni.film_submission2.ui.activity;
 
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
+
+import com.bumptech.glide.Glide;
 
 import co.id.roni.film_submission2.R;
 import co.id.roni.film_submission2.model.Movie;
-import co.id.roni.film_submission2.ui.fragment.MovieFragment;
-import co.id.roni.film_submission2.ui.fragment.TVShowsFragment;
 
 public class DetailMovieActivity extends AppCompatActivity {
 
@@ -53,8 +51,8 @@ public class DetailMovieActivity extends AppCompatActivity {
             tvDirectorMoviesDetail.setText(movie.getDirectorMovie());
             tvSynopsisMoviesDetail.setText(movie.getSynopsisMovie());
 
-            imgPosterDetail.setImageResource(movie.getPosterMovie());
-            imgBannerDetail.setImageResource(movie.getPhotoMovieBanner());
+            Glide.with(this).load(movie.getPosterMovie()).into(imgPosterDetail);
+            Glide.with(this).load(movie.getPhotoMovieBanner()).into(imgBannerDetail);
 
         }
     }

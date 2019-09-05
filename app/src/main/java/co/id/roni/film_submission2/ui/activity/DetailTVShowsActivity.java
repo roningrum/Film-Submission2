@@ -8,27 +8,35 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import co.id.roni.film_submission2.R;
 import co.id.roni.film_submission2.model.TvShow;
 
 public class DetailTVShowsActivity extends AppCompatActivity {
+
+    @BindView(R.id.tv_name_movie_detail)
+    TextView tvNameTVShowsDetail;
+    @BindView(R.id.tv_genre_tvshows_detail)
+    TextView tvGenreTvShowsDetail;
+    @BindView(R.id.tv_duration_tvShows_item)
+    TextView tvDurationTvShowsDetail;
+    @BindView(R.id.tv_creator_detail)
+    TextView tvCreatorTvShowsDetail;
+    @BindView(R.id.tv_synopsis_tvshows_detail)
+    TextView tvSynopsisTvShowsDetail;
+    @BindView(R.id.img_movie_poster_detail)
+    ImageView imgPosterTVShowsDetail;
+    @BindView(R.id.img_detail_photo_tv_banner)
+    ImageView imgBannerTvShowsDetail;
+
     public static final String EXTRA_TVSHOWS = "extra_mtvshows";
-    private ImageView imgPosterTVShowsDetail, imgBannerTvShowsDetail;
-    private TextView tvNameTVShowsDetail, tvGenreTvShowsDetail,
-            tvDurationTvShowsDetail, tvCreatorTvShowsDetail, tvSynopsisTvShowsDetail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_tvshows);
-        imgPosterTVShowsDetail = findViewById(R.id.img_tvshows_poster_detail);
-        imgBannerTvShowsDetail = findViewById(R.id.img_detail_photo_tv_banner);
-        tvNameTVShowsDetail = findViewById(R.id.tv_name_tvshows_detail);
-        tvGenreTvShowsDetail = findViewById(R.id.tv_genre_tvshows_detail);
-        tvDurationTvShowsDetail = findViewById(R.id.tv_duration_tvShows_item);
-        tvCreatorTvShowsDetail = findViewById(R.id.tv_creator_detail);
-        tvSynopsisTvShowsDetail = findViewById(R.id.tv_synopsis_tvshows_detail);
-
+        ButterKnife.bind(this);
         showTvShowsDetail();
 
     }

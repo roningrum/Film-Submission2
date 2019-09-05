@@ -34,6 +34,7 @@ public class MovieFragment extends Fragment {
     private String[] dataSinopsisFilm;
     private TypedArray dataPhotoFilm;
     private TypedArray dataPhotoBannerFilm;
+
     private ArrayList<Movie> movies;
 
     public MovieFragment() {

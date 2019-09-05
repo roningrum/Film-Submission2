@@ -15,7 +15,7 @@ import co.id.roni.film_submission2.model.TvShow;
 
 public class DetailTVShowsActivity extends AppCompatActivity {
 
-    @BindView(R.id.tv_name_movie_detail)
+    @BindView(R.id.tv_name_tvshows_detail)
     TextView tvNameTVShowsDetail;
     @BindView(R.id.tv_genre_tvshows_detail)
     TextView tvGenreTvShowsDetail;
@@ -25,7 +25,7 @@ public class DetailTVShowsActivity extends AppCompatActivity {
     TextView tvCreatorTvShowsDetail;
     @BindView(R.id.tv_synopsis_tvshows_detail)
     TextView tvSynopsisTvShowsDetail;
-    @BindView(R.id.img_movie_poster_detail)
+    @BindView(R.id.img_tvshows_poster_detail)
     ImageView imgPosterTVShowsDetail;
     @BindView(R.id.img_detail_photo_tv_banner)
     ImageView imgBannerTvShowsDetail;

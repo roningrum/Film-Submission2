@@ -55,7 +55,7 @@ public class MovieListAdapter extends RecyclerView.Adapter<MovieListAdapter.Movi
         @BindView(R.id.img_movie_item)
         ImageView imgMovieItem;
 
-        public MovieViewHolder(@NonNull View itemView) {
+        MovieViewHolder(@NonNull View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
         }
@@ -64,12 +64,7 @@ public class MovieListAdapter extends RecyclerView.Adapter<MovieListAdapter.Movi
             tvNameMovieItem.setText(movie.getNameMovie());
             tvGenreMovie.setText(movie.getGenreMovie());
             Glide.with(itemView.getContext()).load(movie.getPosterMovie()).into(imgMovieItem);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    onItemClickCallback.onItemClicked(movies.get(getAdapterPosition()));
-                }
-            });
+            itemView.setOnClickListener(view -> onItemClickCallback.onItemClicked(movies.get(getAdapterPosition())));
         }
     }
 

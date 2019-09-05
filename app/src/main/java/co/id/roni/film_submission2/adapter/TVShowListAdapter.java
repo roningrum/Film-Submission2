@@ -49,14 +49,14 @@ public class TVShowListAdapter extends RecyclerView.Adapter<TVShowListAdapter.Tv
 
     class TvShowViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.tv_name_tvshows_item)
-        private TextView tvNameTVItem;
+        TextView tvNameTVItem;
         @BindView(R.id.tv_genre_tv_shows_item)
-        private TextView tvGenreTVShow;
+        TextView tvGenreTVShow;
         @BindView(R.id.img_tv_shows_item)
-        private ImageView imgTvShowItem;
+        ImageView imgTvShowItem;
 
 
-        public TvShowViewHolder(@NonNull View itemView) {
+        TvShowViewHolder(@NonNull View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
         }
@@ -65,12 +65,7 @@ public class TVShowListAdapter extends RecyclerView.Adapter<TVShowListAdapter.Tv
             tvNameTVItem.setText(tvShow.getNameTvShow());
             tvGenreTVShow.setText(tvShow.getGenreTvShow());
             Glide.with(itemView.getContext()).load(tvShow.getPosterTvShow()).into(imgTvShowItem);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    onItemClickCallback.onItemClicked(tvShows.get(getAdapterPosition()));
-                }
-            });
+            itemView.setOnClickListener(view -> onItemClickCallback.onItemClicked(tvShows.get(getAdapterPosition())));
         }
     }
 

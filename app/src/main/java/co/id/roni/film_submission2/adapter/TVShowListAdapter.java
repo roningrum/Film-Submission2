@@ -3,6 +3,7 @@ package co.id.roni.film_submission2.adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,7 +13,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import co.id.roni.film_submission2.customview.MoviePosterView;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import co.id.roni.film_submission2.R;
 import co.id.roni.film_submission2.model.TvShow;
 
@@ -46,16 +48,20 @@ public class TVShowListAdapter extends RecyclerView.Adapter<TVShowListAdapter.Tv
     }
 
     class TvShowViewHolder extends RecyclerView.ViewHolder {
-        private TextView tvNameTVItem, tvGenreTVShow;
-        private MoviePosterView imgTvShowItem;
+        @BindView(R.id.tv_name_tvshows_item)
+        private TextView tvNameTVItem;
+        @BindView(R.id.tv_genre_tv_shows_item)
+        private TextView tvGenreTVShow;
+        @BindView(R.id.img_tv_shows_item)
+        private ImageView imgTvShowItem;
 
-        TvShowViewHolder(@NonNull View itemView) {
+
+        public TvShowViewHolder(@NonNull View itemView) {
             super(itemView);
-            tvNameTVItem = itemView.findViewById(R.id.tv_name_tvshows_item);
-            tvGenreTVShow = itemView.findViewById(R.id.tv_genre_tv_shows_item);
-            imgTvShowItem = itemView.findViewById(R.id.img_tv_shows_item);
+            ButterKnife.bind(this, itemView);
         }
-        void bindMovies(TvShow tvShow){
+
+        void bindMovies(TvShow tvShow) {
             tvNameTVItem.setText(tvShow.getNameTvShow());
             tvGenreTVShow.setText(tvShow.getGenreTvShow());
             Glide.with(itemView.getContext()).load(tvShow.getPosterTvShow()).into(imgTvShowItem);

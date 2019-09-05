@@ -60,12 +60,7 @@ public class MovieFragment extends Fragment {
         rvMovies.setLayoutManager(new LinearLayoutManager(getContext()));
         MovieListAdapter movieListAdapter = new MovieListAdapter(movies);
         rvMovies.setAdapter(movieListAdapter);
-        movieListAdapter.setOnItemClickCallback(new MovieListAdapter.OnItemClickCallback() {
-            @Override
-            public void onItemClicked(Movie movieData) {
-                showIntentMovieDetail(movieData);
-            }
-        });
+        movieListAdapter.setOnItemClickCallback(this::showIntentMovieDetail);
     }
 
     private void showIntentMovieDetail(Movie movieData) {

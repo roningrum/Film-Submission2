@@ -57,12 +57,7 @@ public class TVShowsFragment extends Fragment {
         rvTvShows.setLayoutManager(new LinearLayoutManager(getContext()));
         TVShowListAdapter tvListAdapter = new TVShowListAdapter(tvShows);
         rvTvShows.setAdapter(tvListAdapter);
-        tvListAdapter.setOnItemClickCallback(new TVShowListAdapter.OnItemClickCallback() {
-            @Override
-            public void onItemClicked(TvShow tvShow) {
-                showIntentTvShowsDetail(tvShow);
-            }
-        });
+        tvListAdapter.setOnItemClickCallback(this::showIntentTvShowsDetail);
     }
 
     private void showIntentTvShowsDetail(TvShow tvShow){

@@ -38,8 +38,6 @@ public class DetailMovieActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_movie);
         ButterKnife.bind(this);
-
-
         //menampilkan data detail movie
         showMovieDetail();
 
